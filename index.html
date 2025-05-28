@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Best Song App</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #1f1c2c, #928dab);
+      color: white;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .song-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+      gap: 25px;
+    }
+
+    .song-card {
+      background-color: #2c3e50;
+      border-radius: 15px;
+      padding: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s ease;
+    }
+
+    .song-card:hover {
+      transform: scale(1.02);
+    }
+
+    iframe {
+      width: 100%;
+      height: 200px;
+      border: none;
+      border-radius: 10px;
+    }
+
+    @media (max-width: 500px) {
+      iframe {
+        height: 180px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🎧 Best Song App</h1>
+
+  <div class="song-grid">
+    <div class="song-card">
+      <iframe src="https://www.youtube.com/embed/8UGX4LAvaww" allowfullscreen></iframe>
+    </div>
+    <div class="song-card">
+      <iframe src="https://www.youtube.com/embed/UjSS3DUyTn8" allowfullscreen></iframe>
+    </div>
+    <div class="song-card">
+      <iframe src="https://www.youtube.com/embed/D96pPLjYkjs" allowfullscreen></iframe>
+    </div>
+    <div class="song-card">
+      <iframe src="https://www.youtube.com/embed/loaEWumssns" allowfullscreen></iframe>
+    </div>
+    <div class="song-card">
+      <iframe src="https://www.youtube.com/embed/CsrsR_sC2jE" allowfullscreen></iframe>
+    </div>
+    <div class="song-card">
+      <iframe src="https://www.youtube.com/embed/KgayxOF4Y7E" allowfullscreen></iframe>
+    </div>
+    <div class="song-card">
+      <iframe src="https://www.youtube.com/embed/bz0H_KVp3zg" allowfullscreen></iframe>
+    </div>
+    <div class="song-card">
+      <iframe src="https://www.youtube.com/embed/FdhBRWvq3Hw" allowfullscreen></iframe>
+    </div>
+
+    <!-- New Songs -->
+    <div class="song-card">
+      <iframe src="https://www.youtube.com/embed/roYXleySAWI" allowfullscreen></iframe>
+    </div>
+    <div class="song-card">
+      <iframe src="https://www.youtube.com/embed/RMGc6t28prk" allowfullscreen></iframe>
+    </div>
+    <div class="song-card">
+      <iframe src="https://www.youtube.com/embed/6aVRZ6zO_Uw" allowfullscreen></iframe>
+    </div>
+    <div class="song-card">
+      <iframe src="https://www.youtube.com/embed/Wopk7nKe_to" allowfullscreen></iframe>
+    </div>
+    <div class="song-card">
+      <iframe src="https://www.youtube.com/embed/Tii4kyAlzmo" allowfullscreen></iframe>
+    </div>
+    <div class="song-card">
+      <iframe src="https://www.youtube.com/embed/QaRxqFiTADc" allowfullscreen></iframe>
+    </div>
+    <div class="song-card">
+      <iframe src="https://www.youtube.com/embed/r2m7Ld3XGjo" allowfullscreen></iframe>
+    </div>
+  </div>
+
+</body>
+</html>
